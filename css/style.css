@@ -1,11 +1,11 @@
 /********** Template CSS **********/
 :root {
-  --primary: #1e60aa;
-  --secondary: #ff4917;
-  --light: #edf1fc;
-  --dark: #000000;
-  /* --dark: #17224d; */
+  --primary: #004AAD;   /* Electric Blue */
+  --secondary: #FFB100; /* Energy Amber */
+  --light: #F5F7FA;     /* Clean Light Background */
+  --dark: #1B1F2B;      /* Charcoal for text/background */
 }
+
 
 .fw-medium {
   font-weight: 600 !important;
