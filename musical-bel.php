@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Falhaar</title>
+    <title>Musical Bel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
         rel="stylesheet" />
 
-    <!-- aos -->
+    <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
@@ -28,10 +28,10 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Template Stylesheet -->
+    <!-- Custom Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
 
     <style>
@@ -43,10 +43,29 @@
             height: 100%;
             object-fit: cover;
         }
+
+        .page-header {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            color: #d35400;
+            font-weight: 700;
+        }
+
+        .breadcrumb {
+            background: transparent;
+            justify-content: center;
+            padding: 0;
+            margin-top: 10px;
+        }
     </style>
 </head>
 
 <body>
+
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -57,44 +76,61 @@
     <!-- Spinner End -->
 
     <!-- Header -->
+    <?php include('header.php'); ?>
 
-    <?php include('header.php') ?>
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Musical Bel</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="products.php">Products</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Musical Bel</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- End Page Header -->
 
-    <!-- Single page  -->
+    <!-- Single Product Page -->
     <div class="container-fluid py-5" style="background-color: #f9f9f9;">
         <div class="container">
             <div class="row align-items-center">
-                <!-- Image -->
+                <!-- Product Image -->
                 <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-                    <img src="img/makhana_pro_3.jpg" class="img-fluid rounded shadow-sm" alt="Tandoori Makhana">
+                    <img src="img/musical-bel.webp"
+                        class="img-fluid rounded shadow-sm" alt="Musical Bel">
                 </div>
 
-                <!-- Text -->
+                <!-- Product Details -->
                 <div class="col-md-6" data-aos="fade-left">
-                    <h2 class="mb-3" style="color: #d35400;">Masala Makhana</h2>
+                    <h2 class="mb-3" style="color: #d35400;">Musical Bel</h2>
                     <p class="text-muted">
-                        Experience the perfect balance of flavor and nutrition with our Masala Makhana — roasted fox
-                        nuts tossed in a blend of traditional Indian spices. Each crunchy bite delivers a burst of
-                        tangy, savory goodness, making it a delicious and wholesome alternative to oily snacks. Light on
-                        calories but big on taste, Masala Makhana is your go-to snack for guilt-free indulgence anytime,
-                        anywhere.
+                        Enjoy melodious sounds with our Musical Bel, designed to produce clear, resonant tones. Perfect
+                        for spiritual, cultural, or decorative purposes, this durable bell adds harmony to any space.
                     </p>
 
                     <ul class="list-unstyled">
-                        <li>✅ Roasted, not fried – a healthy alternative to chips</li>
-                        <li>✅ Made with authentic Indian masala spices</li>
-                        <li>✅ High in protein, fiber & low in fat</li>
-                        <li>✅ Gluten-free, vegan, and preservative-free</li>
-                        <li>✅ Ideal for tea-time, travel, or post-workout snacking</li>
+                        <li>✅ Produces clear and resonant sound</li>
+                        <li>✅ Durable and long-lasting design</li>
+                        <li>✅ Ideal for spiritual or decorative use</li>
+                        <li>✅ Easy to handle and place anywhere</li>
+                        <li>✅ Perfect for homes, temples, or events</li>
                     </ul>
 
-                    <button class="btn btn-warning mt-3 shadow" data-bs-toggle="modal" data-bs-target="#enquiryModal">
-                        Enquire Now
-                    </button>
+                    <!-- Enquiry Button -->
+                    <button class="btn btn-warning mt-3 shadow" data-bs-toggle="modal"
+                        data-bs-target="#enquiryModal">Enquiry Now</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End single page -->
+    <!-- End Product Page -->
 
-    <?php include('footer.php') ?>
+    <!-- Footer -->
+    <?php include('footer.php'); ?>
+
+</body>
+
+</html>

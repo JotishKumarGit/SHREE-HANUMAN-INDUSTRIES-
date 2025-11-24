@@ -94,70 +94,7 @@
   <!-- Spinner End -->
 
   <!-- Header -->
-  <!-- Topbar -->
-  <div class="topbar">
-    <div class="contact-info">
-      <span><i class="fa fa-envelope me-1"></i> example@gmail.com</span>
-      <span><i class="fa fa-phone me-1"></i> +91 9029421251</span>
-    </div>
-    <div class="social-icons">
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-    </div>
-  </div>
-  <!-- Topbar end -->
-
-  <!-- STICKY NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top px-3 py-2 border-bottom">
-    <div class="container-fluid">
-      <!-- Logo -->
-      <a class="navbar-brand fw-bold d-flex justify-content-center align-items-center" href="index.php">
-        <h1 class="text-dark m-0" style="font-size: 18px; font-weight: bold;">
-          SHREE HANUMAN INDUSTRIES
-        </h1>
-
-        <!-- <img src="img/falhaar_logo.jpeg" height="50px" width="100%" alt="" /> -->
-      </a>
-
-      <!-- Right Side Icons -->
-      <div class="d-flex align-items-center ms-auto gap-3">
-        <button class="btn border-0 d-lg-block d-md-block d-sm-block" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasMenu">
-          <i class="fa fa-bars fs-5 text-dark"></i>
-        </button>
-      </div>
-    </div>
-  </nav>
-  <!-- End navbar -->
-
-  <!-- OFFCANVAS MENU -->
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu">
-    <div class="offcanvas-header border-bottom">
-      <h5 class="offcanvas-title">Menu</h5>
-      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
-    </div>
-    <div class="offcanvas-body">
-      <ul class="list-unstyled ps-1">
-        <li>
-          <a href="index.php" class="d-block py-2 submenu-link">Home</a>
-        </li>
-        <li>
-          <a href="about.php" class="d-block py-2 submenu-link">About</a>
-        </li>
-        <li>
-          <a href="service.php" class="d-block py-2 submenu-link">Services</a>
-        </li>
-        <li>
-          <a href="contact.php" class="d-block py-2 submenu-link">Contact</a>
-        </li>
-        <li>
-          <a href="product.php" class="d-block py-2 submenu-link">Products</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+<?php include('header.php') ?>
 
   <!-- Carousel Start  -->
   <div class="container-fluid p-0 mb-5">
@@ -753,8 +690,7 @@
    <div class="container-fluid">
 <div class="container py-5">
     <h2 class="collection-title">Our Product Collections</h2>
-    <p class="text-center mb-4">Smooth, efficient ironing performance with durable heating technology.
-Designed for effortless daily use and long-lasting reliability.</p>
+    <p class="text-center mb-4">Smooth, efficient ironing performance with durable heating technology. Designed for effortless daily use and long-lasting reliability.</p>
 
     <div class="row g-4">
 
@@ -762,7 +698,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up">
             <div class="collection-card">
                 <img src="collections/collection_wipro-dry-iron_4.webp" alt="">
-                <div class="collection-name">Wipro Dry Iron</div>
+               <a href="contact.php"> <div class="collection-name">Wipro Dry Iron</div></a>
             </div>
         </div>
 
@@ -770,7 +706,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
             <div class="collection-card">
                 <img src="collections/collection_white-musical-mantra-door-bell_8.webp" alt="">
-                <div class="collection-name">White Musical Mantra Door Bell</div>
+                 <a href="contact.php"><div class="collection-name">White Musical Mantra Door Bell</div></a>
             </div>
         </div>
 
@@ -778,7 +714,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="150">
             <div class="collection-card">
                 <img src="collections/collection_white-door-bell-musical-home_7.webp" alt="">
-                <div class="collection-name">White Door Bell Musical</div>
+                 <a href="contact.php"><div class="collection-name">White Door Bell Musical</div></a>
             </div>
         </div>
 
@@ -786,7 +722,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
             <div class="collection-card">
                 <img src="collections/collection_velox-electrical-mcb_11.webp" alt="">
-                <div class="collection-name">Velox Electrical MCB</div>
+                 <a href="contact.php"><div class="collection-name">Velox Electrical MCB</div></a>
             </div>
         </div>
 
@@ -794,7 +730,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up">
             <div class="collection-card">
                 <img src="collections/collection_saini-musical-bell_3.webp" alt="">
-                <div class="collection-name">Saini Musical Bell</div>
+                <a href="contact.php"> <div class="collection-name">Saini Musical Bell</div></a>
             </div>
         </div>
 
@@ -802,7 +738,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
             <div class="collection-card">
                 <img src="collections/collection_polycarbonate-ceilnig-fan-regulator_1.webp" alt="">
-                <div class="collection-name">Polycarbonate Fan Regulator</div>
+                <a href="contact.php"> <div class="collection-name">Polycarbonate Fan Regulator</div></a>
             </div>
         </div>
 
@@ -810,7 +746,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="150">
             <div class="collection-card">
                 <img src="collections/collection_duralite-flood-light_9.webp" alt="">
-                <div class="collection-name">Duralite Flood Light</div>
+               <a href="contact.php">  <div class="collection-name">Duralite Flood Light</div></a>
             </div>
         </div>
 
@@ -818,7 +754,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
             <div class="collection-card">
                 <img src="collections/collection_40w-2x2-led-panel-light_10.webp" alt="">
-                <div class="collection-name">40W 2x2 LED Panel Light</div>
+               <a href="contact.php">  <div class="collection-name">40W 2x2 LED Panel Light</div></a>
             </div>
         </div>
 
@@ -826,7 +762,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up">
             <div class="collection-card">
                 <img src="collections/collection_15w-wipro-garnet-led-panel-light_6.webp" alt="">
-                <div class="collection-name">15W Wipro Garnet Panel Light</div>
+               <a href="contact.php">  <div class="collection-name">15W Wipro Garnet Panel Light</div></a>
             </div>
         </div>
 
@@ -834,7 +770,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
             <div class="collection-card">
                 <img src="collections/collection_12.webp" alt="">
-                <div class="collection-name">LED Collection 12</div>
+               <a href="contact.php">  <div class="collection-name">LED Collection 12</div></a>
             </div>
         </div>
 
@@ -842,7 +778,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="150">
             <div class="collection-card">
                 <img src="collections/collection_9w-wipro-garnet-led-bulb_2.webp" alt="">
-                <div class="collection-name">9W Wipro Garnet LED Bulb</div>
+                <a href="contact.php"> <div class="collection-name">9W Wipro Garnet LED Bulb</div></a>
             </div>
         </div>
 
@@ -850,7 +786,7 @@ Designed for effortless daily use and long-lasting reliability.</p>
         <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
             <div class="collection-card">
                 <img src="collections/collectio_wipro-garnet-led-bulb_5.webp" alt="">
-                <div class="collection-name">Wipro Garnet LED Bulb</div>
+               <a href="contact.php">  <div class="collection-name">Wipro Garnet LED Bulb</div></a>
             </div>
         </div>
 
@@ -858,7 +794,6 @@ Designed for effortless daily use and long-lasting reliability.</p>
 </div>
 </div>
   <!-- end our collections  -->
-
 
   <!-- Blog Section Start -->
   <div class="container py-5" id="blog">
@@ -977,114 +912,5 @@ Designed for effortless daily use and long-lasting reliability.</p>
   </div>
   <!-- Contact End -->
 
-  <!-- Footer Start -->
-  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container py-5">
-      <div class="row g-5">
-
-        <!-- Address -->
-        <div class="col-lg-3 col-md-6">
-          <h4 class="text-light mb-4">Contact Us</h4>
-          <p class="mb-2">
-            <i class="fa fa-map-marker-alt me-3"></i>B-2, Room No. 3, Gopinath Complex,<br />
-            Saraswati Nagar, Gurudwara Road, Navghar Rd, Maharashtra, India 401105
-          </p>
-          <p class="mb-2">
-            <i class="fa fa-phone-alt me-3"></i>+91 9029421251
-          </p>
-          <p class="mb-2">
-            <i class="fa fa-envelope me-3"></i>info@shreehanumanindustries.com
-          </p>
-          <div class="d-flex pt-2">
-            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-
-        <!-- Opening Hours or Services -->
-        <div class="col-lg-3 col-md-6">
-          <h4 class="text-light mb-4">Our Services</h4>
-          <a class="btn btn-link" href="#">Electrical Fittings</a>
-          <a class="btn btn-link" href="#">Electrical Panels</a>
-          <a class="btn btn-link" href="#">Energy Management</a>
-          <a class="btn btn-link" href="#">LED Lighting Solutions</a>
-          <a class="btn btn-link" href="#">Wires & Cables</a>
-          <a class="btn btn-link" href="#">Transformer & Substation Equipment</a>
-        </div>
-
-        <!-- Quick Links -->
-        <div class="col-lg-3 col-md-6">
-          <h4 class="text-light mb-4">Quick Links</h4>
-          <a class="btn btn-link" href="index.php">Home</a>
-          <a class="btn btn-link" href="about.php">About</a>
-          <a class="btn btn-link" href="service.php">Services</a>
-          <a class="btn btn-link" href="product.php">Products</a>
-          <a class="btn btn-link" href="contact.php">Contact</a>
-        </div>
-
-        <!-- Newsletter -->
-        <div class="col-lg-3 col-md-6">
-          <h4 class="text-light mb-4">Newsletter</h4>
-          <p>Stay updated with our latest products and industry solutions.</p>
-          <div class="position-relative mx-auto" style="max-width: 400px;">
-            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
-            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">
-              SignUp
-            </button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Copyright -->
-    <div class="container">
-      <div class="copyright">
-        <div class="row">
-          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            &copy; <a class="border-bottom" href="#">Shree Hanuman Industries</a>, All Rights Reserved.
-          </div>
-          <div class="col-md-6 text-center text-md-end">
-            Designed by <a class="border-bottom" href="https://trade4export.com">Trade4Export</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Footer End -->
-
-  <!-- Back to Top -->
-  <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
-  <!-- JavaScript Libraries -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/tempusdominus/js/moment.min.js"></script>
-  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-  <!-- Template Javascript -->
-  <script src="js/main.js"></script>
-  <!-- aos -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <!-- Submenu Toggle Script -->
-  <script>
-    document
-      .querySelector(".toggle-submenu")
-      .addEventListener("click", function () {
-        const submenu = document.querySelector(".submenu");
-        submenu.classList.toggle("d-none");
-      });
-  </script>
-</body>
-
-</html>
+  <!-- footer -->
+   <?php include('footer.php') ?>
